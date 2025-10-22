@@ -36,13 +36,13 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <h1>Log in Form</h1>
+      <h1>Log in</h1>
 
       <LoginForm onLogin={handleLogin} errorMessage={error} />
       <AuthStatus user={user} onLogout={handleLogout} />
 
       <footer className="footer">
-        Tip: try username: <code>admin</code> and password: <code>password</code>
+          username: <code>admin</code> and password: <code>password</code>
       </footer>
     </div>
   )
